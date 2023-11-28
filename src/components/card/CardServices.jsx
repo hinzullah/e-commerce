@@ -6,9 +6,7 @@ import { ReactComponent as IconArrowCounterclockwiseFill } from "bootstrap-icons
 const CardServices = (props) => {
   return (
     <div className="card mb-3">
-      <div className="card-header fw-bold text-uppercase">
-        Custom Service
-      </div>
+      <div className="card-header fw-bold text-uppercase">Custom Service</div>
       <div className="card-body">
         <div className="row border-bottom">
           <div className="col-2">
@@ -27,7 +25,7 @@ const CardServices = (props) => {
           </div>
           <div className="col">
             <div className="ms-3">
-              <span className="fw-bold">Support 24/7</span>
+              <span className="fw-bold">Support 24/7 Availability</span>
               <p className="text-muted small m-0">Online 24 hours</p>
             </div>
           </div>

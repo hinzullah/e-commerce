@@ -41,11 +41,7 @@ const Header = () => {
                     <i className="bi bi-person-square"></i> My Profile
                   </Link>
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/star/zone">
-                    <i className="bi bi-star-fill text-warning"></i> Star Zone
-                  </Link>
-                </li>
+
                 <li>
                   <Link className="dropdown-item" to="/account/orders">
                     <i className="bi bi-list-check text-primary"></i> Orders
@@ -59,18 +55,7 @@ const Header = () => {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/account/notification">
-                    <i className="bi bi-bell-fill text-primary"></i>
-                    Notification
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/support">
-                    <i className="bi bi-info-circle-fill text-success"></i>
-                    Support
-                  </Link>
-                </li>
+
                 <li>
                   <hr className="dropdown-divider" />
                 </li>

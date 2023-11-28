@@ -18,7 +18,9 @@ const CardProductList2 = (props) => {
             {product.isNew && (
               <span className="badge bg-success me-2">New</span>
             )}
-            {product.isHot && <span className="badge bg-danger me-2">Hot</span>}
+            {product.isHot && (
+              <span className="badge bg-danger me-2">Hot Deals</span>
+            )}
             {product.star > 0 && (
               <span className="badge bg-secondary">
                 <i className="bi bi-star-fill text-warning me-1" />

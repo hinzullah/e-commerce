@@ -73,7 +73,7 @@ const CardProductList = (props) => {
             </div>
             {product.isFreeShipping && (
               <p className="text-success small mb-2">
-                <i className="bi bi-truck" /> Free shipping
+                <i className="bi bi-truck" /> Free shipping to all places
               </p>
             )}
 

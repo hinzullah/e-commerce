@@ -142,19 +142,19 @@ const Footer = () => {
             <div className="h6">Address</div>
             <hr />
             <address>
-              <strong>Twitter, Inc.</strong>
+              <strong>Lagos, Nigeria.</strong>
               <br />
-              1355 Market St, Suite 900
+              5 Ido Ani St, Egbeda
               <br />
-              San Francisco, CA 94103
+              Ikeja, 100101
               <br />
-              <abbr title="Phone">P:</abbr> (123) 456-7890
+              <abbr title="Phone"></abbr> (+234) 8023595699
             </address>
             <div className="h6">Customer Care</div>
             <hr />
             <i className="bi bi-telephone"></i> +1800 100 1000
             <br />
-            <i className="bi bi-envelope"></i> info@email.com
+            <i className="bi bi-envelope"></i> hinzukkadagafi@gmail.com
           </div>
         </div>
       </div>
@@ -176,52 +176,8 @@ const Footer = () => {
             </Link>
           </div>
           <div className="col-md-3 py-2">
-            © 2009-{new Date().getFullYear()} React-E-Commerce.com (
+            © 2023-{new Date().getFullYear()} E-Commerce.com (
             {process.env.REACT_APP_VERSION})
-          </div>
-          <div className="col-md-3 py-2 bg-white">
-            <img
-              src="../../images/payment/american_express.webp"
-              width="32"
-              alt="American Express"
-              className="me-2"
-            />
-            <img
-              src="../../images/payment/maestro.webp"
-              width="32"
-              alt="Maestro"
-              className="me-2"
-            />
-            <img
-              src="../../images/payment/netbanking.webp"
-              width="32"
-              alt="Net Banking"
-              className="me-2"
-            />
-            <img
-              src="../../images/payment/paypal.webp"
-              width="32"
-              alt="Paypal"
-              className="me-2"
-            />
-            <img
-              src="../../images/payment/rupay.webp"
-              width="32"
-              alt="Rupay"
-              className="me-2"
-            />
-            <img
-              src="../../images/payment/upi.webp"
-              width="32"
-              alt="UPI"
-              className="me-2"
-            />
-            <img
-              src="../../images/payment/visa.webp"
-              width="32"
-              alt="Visa"
-              className="me-2"
-            />
           </div>
         </div>
       </div>

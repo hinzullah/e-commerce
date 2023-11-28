@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+/**import React, { lazy } from "react";
 import { Link } from "react-router-dom";
 const Line = lazy(() => import("../others/Line"));
 
@@ -23,3 +23,4 @@ const Archives = (props) => {
   );
 };
 export default Archives;
+*/
